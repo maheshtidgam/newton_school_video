@@ -1,0 +1,39 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+
+.container{
+    width: 3500px;
+    height: 1000px;
+    margin: auto;
+}
+
+
+h1{
+    font-size: 70px;
+    font-weight: 100px;
+}
+p{
+    font-size:45px ;
+}
+
+
+.inner-container{
+    display:flex;
+    justify-content: space-around;
+    margin-top: 150px;
+}
+
+.video{
+    width: 1000px
+}
+
+iframe{
+    width: 1000px;
+    height: 600px;
+    border-radius: 50px;
+}
